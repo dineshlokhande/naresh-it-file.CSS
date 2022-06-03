@@ -1,0 +1,66 @@
+/*  logical combinator pseudo selector */
+/* 
+p{
+    color: red;
+}
+
+.para1{
+    text-shadow:1px 1px 1px green;
+}
+
+[class]{
+    color: orange;
+} */
+
+/* 
+*{
+    color: darkorchid;
+}  */
+
+
+
+/* ************  not()  ***********/
+
+
+
+/* p:not(.para7,.para5){
+color: chartreuse;
+} */
+
+/* p{
+    color: green;
+}
+.heading:not(p){
+color:blue;
+}
+
+
+/* *************** lang()********** */
+
+/* 
+.test{
+    color: lawngreen;
+} */
+
+
+/* [lang=en-dinesh]{
+    color: deeppink;
+} */ 
+
+
+/* *******  target ******* */
+
+p:target{
+    background-color: dimgrey;
+    color:#fff;
+    display: block;
+}
+p{
+    display: none;
+}
+
+
+
+
+
+

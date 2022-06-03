@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    border: 5px solid blue;
+    background-color: coral;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    transform: rotate(45deg);
+     */
+}
+/* .para{
+    display: none;
+} */
+p:not(.para){
+    /* display: none; */
+    visibility: visible;
+    visibility: hidden;
+}

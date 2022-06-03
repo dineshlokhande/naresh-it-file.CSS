@@ -1,0 +1,22 @@
+/* p{
+    color: burlywood;
+}
+P{
+    color: crimson !important;
+}
+.para{
+    color: blue !important;
+}
+p#dinu.para.para{
+    color:lime !important;
+}
+p#dinu.para{
+    color:fuchsia !important;
+} */
+/* 
+!important >
+ inline style >
+  ID >
+  |attribute| Class |:pseudo class > 
+  element::pseudo element</p>
+ */

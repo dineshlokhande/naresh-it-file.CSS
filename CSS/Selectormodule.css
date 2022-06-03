@@ -1,0 +1,295 @@
+/* // type selector or element  selector  */
+/* p{
+    color:red;
+} */
+
+
+
+
+
+
+/* ID selector class selector */
+/* #para1{
+    color: #fff568;
+}
+#para2{
+    font-size: 25px;
+}
+#para3{
+    text-align: center;
+
+}
+#para4{
+    text-transform: uppercase;
+}
+.para5{
+    color: blue; text-align: center; font-size: 25px;
+}
+/* .dinu{
+    font-size: 50px;
+}
+h1{
+    color: purple;
+}
+.ganu{
+    color:red; */
+/* } */
+
+/* groups selector */
+
+/* 
+h1 , p , h12 {
+color:red
+} */
+
+/* 
+.hello{
+    color:aquamarine
+} */
+ /* */ 
+
+/* *{
+    color: forestgreen;
+} */
+
+/******* selector combination ( give some space) ********/ 
+
+/**** Decedend selector ****/
+
+/* .div1 p {
+    color: red;
+}
+
+div p{
+    color:blue;
+}
+
+.dinu{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.div1{
+    border: 1px solid black;
+}
+
+.div2{
+    border: 1px solid black;
+}
+
+
+.div3{
+    border: 1px solid black;
+    
+}
+
+.di{
+    border: 1px solid black;
+    width: 10rem;
+}
+*/
+
+/********* chiled combinator*****************/
+
+/*** immediate chilled selector ****/
+/* <!---group of  selector--> */
+  /* p , h1 ,span , h2  {
+    color: blue;                 
+    text-shadow: 1px 1px 1px;
+} */
+
+
+/*** immediate chilled selector ****/
+
+/* .dinu > p ,
+.dinu > h1 {
+    color: red;
+} */
+
+/* .dinu > * {
+    border: 1px solid red ;
+    color: blue;
+} */
+/* 
+div > p {
+    color: gray;
+} */
+
+
+
+/*** next sibling / adjacent selector ****/
+
+/* 
+p + h1{
+    color: greenyellow;
+}
+
+h1 + span{
+    color: chocolate;
+}
+h1 + span + p + p{
+    text-shadow: 1px 1px 1px;
+}
+
+h1 + *{
+    text-transform: uppercase;
+} */
+
+/**** general sibling / subsequent selector ****/
+/* 
+h1 ~ span{
+    color: chartreuse;
+}
+
+h1 ~ p{
+    color: crimson;
+}
+h1 ~ p,
+h1 ~ span,
+h1 ~ div {
+    color: darkorange;
+} */
+
+
+/***** Attritube Selector *********** */
+/************************************* */
+/* 
+[title]{
+    color: deeppink;
+} */
+
+/* [lang="en-gb"]{
+    color: lawngreen;
+    text-shadow: 1px 1px 1px;
+}
+
+[href="pdf.doc"]{
+    color: gold;
+    text-transform: uppercase;
+}
+[title="para5"]{
+    background-color: dimgrey;
+    width: 10rem;
+}
+[title][lang][href]{
+    color: orchid;
+}
+p[title]{
+  border: 1px solid black;
+}
+a[href][title]{
+    border: 1px solid green;
+    border-radius: 5rem;
+}
+
+ */
+
+/***** Pattern matching *********** */
+/************************************* */
+
+/* 
+[title]{
+    color: darkorchid;
+
+}
+
+p[title][lang]{
+    color: gold;
+}
+a[lang]{
+    color: chartreuse;
+}
+
+[lang|="en"]{
+    color: dimgray;
+} */
+
+/* p[title|="para1"]{
+    color: greenyellow;
+}
+
+a[title~="doc"]
+{
+    color: darkgrey;
+}
+
+[title^="p"]{
+    color: chocolate;
+}                                                                                                                                                           
+
+[title$="c"]{
+    color: palegreen;
+}
+
+[href$="doc"]{
+    color: fuchsia;
+}
+
+a[href*="pdf"]{
+    color: deeppink;
+} */
+
+/********* case sensitivity of attribute and thats value *********** */
+/* **************************************************************** */
+/* 
+[Title] {
+    color: brown;
+} */
+
+ /* p{
+    text-shadow: 1px 1px 1px;
+}
+
+*{
+    background-color: cyan;            attibute is incasesencitive and that value is case sencitive
+}
+
+p{
+    background-color: chartreuse;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.para:hover{
+    color: red;
+}
+
+[title="para"]{
+    color:darkgoldenrod;
+} */
+
+[title="para"]:hover{
+    color:darkkhaki;
+    font-size: 3rem;
+}
+
+
+
+
+[title="pAra"]:hover{
+    color:blue;
+    font-size: 3rem;
+}
+
+
+[title="paRa" i]:hover{
+    color: red;
+    font-size: 3rem;
+}
+
+
+
+[title="PARA"i]:hover{
+    color: grey;
+    font-size: 3rem;
+}
+
+[title="ParA" ]:hover{
+    color:hotpink;
+    font-size: 3rem;
+}
+

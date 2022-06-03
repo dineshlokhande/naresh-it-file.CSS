@@ -1,0 +1,30 @@
+body{
+    background-color: lawngreen;
+}
+    h1 {
+  color: darkorange;
+}
+
+h5 {
+  color: greenyellow;
+}
+h4 {
+  color: #ff00ff;
+}
+h6 {
+  color: rgb(256, 200, 52);
+  color: rgb(10% 50% 10%);
+}
+h7 {
+  color: hsl(40, 50%, 50%);
+}
+h9 {
+  color: #ff00ff77;
+  color: rgba(200, 50, 50, 0.8);
+  color: hsla(90, 25%, 25%, 0.8);
+}
+p{
+    color:lime;
+    background-color:rgba(200, 50, 50, 0.5);
+    border: 1px solid currentColor;
+}

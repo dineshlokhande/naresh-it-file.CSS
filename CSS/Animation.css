@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    animation-name:moveX;
+    animation-duration:2s;
+    /* animation-delay:-2.5s; */
+    /* animation-iteration-count: 5; */
+/* animation-iteration-count: 2.5; */
+animation-iteration-count:infinite;
+/* animation-timing-function: ease; */
+
+/* animation-timing-function: linear; */
+
+/* animation-timing-function: cubic-bezier(.9,.9,.5,.10,.50); */
+/* animation-timing-function: steps(5); */
+/* animation-direction: normal; */
+/* animation-direction: reverse; */
+/* animation-direction: alternate; */
+
+/* animation-direction: alternate-reverse; */
+/* animation-fill-mode: forwards; */
+ /* animation-fill-mode: backwards;  */
+}
+@keyframes moveX {
+    from{
+         transform: translateX(0px);
+         filter: hue-rotate(120deg);
+    }
+    /* 10%, 20% ,30% ,40% {
+        transform:translateY(140px)
+    }
+    20%{
+        transform: translateX(160px);
+    }
+    50%{
+        transform: translateX(180px); */
+    /* } */
+    to{
+        transform: translateX(900px);
+        filter: hue-rotate(220deg);
+    }
+}
+img:hover{
+    /* animation-play-state: running;
+    animation-play-state: paused; */
+}

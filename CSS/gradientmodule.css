@@ -1,0 +1,173 @@
+/* body {
+  margin: 0;
+  /* box-sizing: border-box; */
+/* } */
+/* div {
+  width: 100vw;
+  height: 100vh;
+  border:1px solid red; */
+  /* background-color: blueviolet; */
+  /* background-image: linear-gradient(crimson, indigo, tomato, indigo ,white,orange,green,pink,grey ,red ,black,purple); */
+/* 
+background-image: linear-gradient(to top , green,blue);
+background-image: linear-gradient(to bottom , green,blue);
+background-image: linear-gradient(to left , green,blue);
+background-image: linear-gradient(to right , green,blue); */
+
+
+/* ********  linear gradient ************* */
+
+/* 
+background-image: linear-gradient(to top right , green,blue);
+background-image: linear-gradient(to top left , green,blue);
+background-image: linear-gradient(to bottom left , green,blue);
+background-image: linear-gradient(to bottom right , green,blue); */
+
+
+/* 
+background-image: linear-gradient(180deg ,red,yellow,green);
+background-image: linear-gradient(200deg ,red,yellow,green);
+background-image: linear-gradient(18deg ,red,yellow,green);
+background-image: linear-gradient(400deg ,red,yellow,green); */
+
+/* background-image: linear-gradient(45deg , red 0 25px,yellow 0 50px,green 0 75px,pink 0 );  */
+
+/* 
+ background-image: linear-gradient(45deg , red 0 25%,yellow 0 50%,green 0 75%,pink 0 ),linear-gradient(03deg , red 0 25%,yellow 0 50%,green 0 75%,pink 0 ); 
+
+background-size: 100px 100px;
+background-repeat: no-repeat; */
+/* background-position: top left , right bottom; */
+
+
+/* background-image:repeating-linear-gradient(0deg ,red 0 5% ,pink 0 10%, purple 0 15% , black 0 20%);
+
+background-size: 200px 200px;
+background-repeat: no-repeat; */
+
+/* } */
+
+
+
+/* ********  radial gradient ************* */
+/* div {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: black; */
+
+  /* background-image: radial-gradient(shape ,size, position, color,); */
+
+/* background-image: radial-gradient(red,blue,pink, yellow,yellow) */
+
+
+/* background-image: radial-gradient(red 0 25%, blue 0 50%, pink 0 75%, yellow 0 100% ,yellow 0 120%) */
+
+/* background-image:radial-gradient(circle 500px at bottom left ,red 0 25%, blue 0 50%, pink 0 75%, yellow 0 100% ,yellow 0 120%) */
+
+/* background-image:radial-gradient(circle 500px at 200px 300px ,red 0 25%, blue 0 50%, pink 0 75%, yellow 0 100% ,yellow 0 120%) */
+/* background-image:radial-gradient(ellipse 300px 200px at 233px 100px ,red 0 25%, blue 0 50%, pink 0 75%, yellow 0 100% ,yellow 0 120%)
+ */
+
+
+ /* background-image:radial-gradient(circle closest-side  ,red 0 20%, blue 0 50%, pink 0 99%, yellow 0%); */
+
+
+ /* background-image:radial-gradient(circle farthest-side  ,red 0 20%, blue 0 50%, pink 0 99%, yellow 0%); */
+
+
+/* 
+ background-image:radial-gradient(circle closest-corner at top 10px right 10px,red 0 20%, blue 0 50%, pink 0 79%, yellow 0); */
+ /* background-image:radial-gradient(circle 200px at bottom center ,red 0 10%, blue 0 20%, pink 0 19%, yellow 0),
+ radial-gradient(circle 100px ,gray 0 10%, orange 0 20%, white 0 19%, brown 0);
+ background-position: 0 0, right bottom;
+ background-size: 80px 80px;
+  */ 
+
+/* background-image: repeating-radial-gradient(red 0 20%, blue 0 40%, black 0 60% ,orange 0 80%);
+background-size: 20px 20px; */
+
+
+/* ********  coninc gradient ************* */
+
+div{
+  width: 300px;
+  height: 300px;
+  background-color:red;
+/*   
+  background-image:conic-gradient(from 90deg ,blue,orange,blue);
+  border-radius: 50%; */
+/* 
+  background-image:conic-gradient(from 0deg at 10px 20px , blue,orange,blue);
+  border-radius: 50%;
+ */
+
+/* 
+ background-image:conic-gradient(from 10deg at 10px 20px , blue,orange,blue),
+ conic-gradient(from 10deg at 10px 20px , blue,pink,yellow);
+ border-radius: 50%;
+ background-position: 0 0 , right  bottom;
+ background-size: 150px 150px;
+ background-repeat: no-repeat;  */
+/* 
+
+ background-image:conic-gradient( blue 0 30%,orange 0 56%,pink 0 40%);
+ 
+border-radius: 50%; */
+
+
+
+
+background-image: repeating-conic-gradient(from o deg ,blue 0 10%,pink 0  20%),
+repeating-conic-gradient(from o deg, gray 0 10%,yellow 0  20% );
+background-repeat: no-repeat;
+background-position: 0 0 , right bottom;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+div{
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+  
+    font-size: large;
+
+}
+section{
+    background-color: blue;
+    height: 600px;
+    
+}
+div:nth-child(1){
+    position: sticky;
+    top: 100px;
+}  
+
+/* 
+body{
+    height:300vh;
+
+}
+.grantparent{
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+    background-color: pink;
+    padding: 50px;
+    position: relative;
+}
+
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    background-color: darkgreen;
+    position: static;
+    position: absolute;
+    right:0;
+    padding: 50px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: chartreuse;
+    position: absolute;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+   
+} */
+
+

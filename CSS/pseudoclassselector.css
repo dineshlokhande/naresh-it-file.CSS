@@ -1,0 +1,91 @@
+
+/* <!-- the pseudo class prefixed is (:)and thrn pseudo class name--> */
+/* <h3>location pseudo class seletor</h3> */
+/* 
+a:link{
+   font-weight: 100; 
+}
+a:visited{
+    color:purple;
+} 
+        /* ?LoVe */
+/* 
+[href]{
+    border: 1px solid red;
+    border-radius: 5rem;
+    text-decoration: none;
+    padding: 0.1rem;
+    background-color: darkgray;
+} */ */
+
+ /* <h3>user Action pseudo class seletor</h3> */
+
+/* a:active{
+    color:chartreuse;
+    border: 1px solid red;
+    border-radius: 3rem;
+}
+
+a:hover{
+    color:chartreuse;
+    
+    background-color:gray;
+
+}
+p:hover{
+    color:chartreuse;
+    cursor: pointer;
+    background-color:gray;
+}
+p:focus{
+    color:khaki;
+}
+
+input{
+    color: coral;
+} */
+
+ /* <h3> strutural pseudo class seletor</h3> */
+/* 
+
+/* root */
+html{
+    color: red;
+font-size: large;
+} */
+/* :root {
+    color: chocolate;
+} */
+/* 
+:root{
+   --dark-creame:#fea239
+   --light-green:#2fff90
+   --font-24:24px;
+}
+
+p{
+    color:var(--dark-creame);
+
+}
+
+/* <empty> */
+
+
+*:empty{
+    border: 1px solid red;
+    height: 20px;
+
+} */
+
+
+:first-child{
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+

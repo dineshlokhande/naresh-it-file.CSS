@@ -1,0 +1,71 @@
+
+ .dinu{
+    border: 2px solid gray;
+    text-align: center;
+    width: 20rem;
+    padding-bottom: 10px;
+    justify-content: center;
+    padding-top: 10px;
+    background-color:linen;
+}
+/* input:enabled{
+    border-radius: 10px;
+    border: 1px solid red;
+}
+button{
+    border-radius: 10px;
+}
+input:disabled{
+    border: 1px solid greenyellow;
+}
+p:read-only{
+    background-color:  red;
+} */ 
+/* 
+:read-write{
+    border: 1px solid blue;
+} */
+
+/* input:placeholder-shown{
+    border: 1px solid red;
+}
+
+input{
+    outline:none;
+    border:1px solid lime;
+} */
+
+/* input:checked + label{
+    color: green;
+}
+input + label{
+    color: coral;
+}
+input:indeterminate + label {
+    color: orange;
+} */
+
+/* input:valid{
+border: 4px solid lime;
+}
+input:invalid{
+    border: 4px solid red;
+}
+input{
+    outline: none;
+} */
+/* 
+input:in-range{
+    border: 1px solid lime;
+
+}
+input:out-of-range{
+    border: 4px solid red;
+} */
+
+input:optional{
+    border: 4px solid lime;
+}
+input:required{
+border: 1px solid red;
+}

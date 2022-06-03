@@ -1,0 +1,171 @@
+
+
+/* structure pseudo class selector */
+
+/*************empty *************************/
+/* 
+:empty{
+
+    border: 1px solid rgb(17, 17, 236); ;
+    height: 20px;
+    border-radius: 15px;
+    width: 10rem;
+    padding: 15px;
+    background-color: blue;
+  
+}
+ 
+input:hover{
+    color: #fff;
+    border-radius: 15px;
+    width: 10rem;
+    padding: 15px;
+    background-color: blue;
+} */
+/****************** Root  ********************/
+
+/* 
+  
+html {
+    color:darkorange;
+}
+roor{
+   
+--chololate:chocolate;
+    --crimson: #dc143c;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px burlywood;
+    
+    }
+
+P{
+    color: var(--chololate);
+    font-size: var(24px);
+}
+
+h1{
+    color: var(--crimson);
+} */
+
+
+/********** first child *********************/
+
+/* 
+:first-child{
+    background-color: gray;
+}
+:last-child{
+    background-color: sienna;
+} */
+
+
+/*  
+ body p:first-child{
+color: red; 
+ }
+
+body p:last-child{
+    color:pink
+
+} */
+
+/* body h3:last-child {
+    color:blue;
+} */
+
+/* body :first-child{
+color: red;
+} 
+body :last-child{
+    color: red;
+    } */
+    
+    /* body p:first-child{
+        background-color:grey;
+    }
+    body p:last-child{
+background-color: greenyellow;
+    } */
+/* 
+
+body >p:first-child{
+    color: chocolate;
+} */
+
+/* body :only-child{background-color: red} */
+
+/* body p:only-child{
+    color: crimson;
+} */
+
+/* body p:nth-child(2){
+    background-color: darkorange ;
+} */
+
+/* body :nth-child(3){
+    background-color: darkorange ;
+}  */
+
+/* body :nth-child(4){
+    background-color: darkorange ;
+}  */
+
+/* body > :nth-child(odd){
+    background-color: cornflowerblue;
+    color: #fff; */
+
+/* body > :nth-child(even){
+    color: brown;
+} */
+
+/* body > :nth-child(even){
+    background-color: greenyellow;
+    color: #fff; */
+
+/* 
+body > :nth-last-child(4){
+color: brown;
+} */
+/* 
+body > :nth-last-child(odd){
+    background-color: violet;
+} */
+
+/* 
+body p:nth-last-child(odd){
+    background-color: violet;
+} */
+
+/* :first-of-type{
+    background-color: blueviolet;
+} */
+/* 
+ last-of-type{
+    background-color: yellow ;
+} 
+
+body :first-of-type{
+    background-color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

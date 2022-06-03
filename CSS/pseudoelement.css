@@ -1,0 +1,105 @@
+/* pseudo element selector  */
+
+/* 
+p::first-letter{
+    color: greenyellow;
+    font-size: 35px;
+
+}
+h1::first-line{
+    color: greenyellow;
+    font-size: 35px;
+
+}
+*::selection{
+    color:gray;
+    font-size: 35px;
+}
+input::placeholder{
+color: blue;
+
+}
+
+h2::before{
+content: "I  ";
+color: orange;
+font-size: 40px;
+}
+h2::after{
+content: "  india";
+color: green;
+font-size: 40px;
+
+}
+h2{
+    color: blue;
+    font-size: 40px;
+}
+
+li::marker{
+    color: darkviolet;
+}
+
+li{
+    color: chartreuse;
+}
+h3::before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Z4qjfq00oKiHHnk_Vib4ri_a6InDyfMCbg&usqp=CAU);
+padding: 10px;
+}
+h3::after{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Z4qjfq00oKiHHnk_Vib4ri_a6InDyfMCbg&usqp=CAU);
+
+} */
+
+/* P::after{
+    content: counter(inc) " ";
+}
+
+p {
+    counter-increment:inc;
+} */
+/* P::before{
+    content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4oGx18sT9TdLwJEwnb_Tx5uYe9zVtE3MBO6qx3mbysB5WVJGeB2nuXz2HXcdnQhdQeaQ&usqp=CAU);
+}
+
+p::after{
+    content: url(https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480);
+} */
+/* 
+P:hover:before{
+content: attr(title);
+} */
+/* 
+a:hover:before{
+    content: attr(href);
+} */
+/* p::before{
+    content: ' \0024 ' " ";
+} */
+
+/* p::before{
+    content: ' ❤ ' " ";
+} */
+
+div::before{
+    content: "";
+    border: 70px solid crimson;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top:30px solid crimson; 
+    border-bottom:30px solid lime; 
+    border-left:30px solid green; 
+    border-right:30px solid blue; 
+    position: absolute;
+    border-bottom: 100px;
+
+
+}
+
+
+
+
+
+

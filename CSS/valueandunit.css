@@ -1,0 +1,210 @@
+ /****************************
+       Distance Units
+ ******************************/ 
+
+/* ******** Absolute Unit ******* */
+
+/* P:nth-child(1){
+    background-color: yellow;
+    width: 100px;
+}
+P:nth-child(2){
+    background-color: yellow;
+    width: 100pt; /* 1pt = 1.328px */
+
+/* P:nth-child(3){
+    background-color: yellow;
+    width: 10pc; /* 1pc = 16px */
+
+/* P:nth-child(4){
+    background-color: yellow;
+    width: 40q; /* 1(q.mm) = 1/4 mm*/
+
+/* P:nth-child(5){
+    background-color: yellow;
+    width: 40q; /* 10mm) = 40 quater*/
+
+/* P:nth-child(6){
+    background-color: yellow;
+    width: 10cm; /* 10mm) = 1cm*/
+
+/* P:nth-child(7){
+    background-color: yellow;
+    width: 1in; /* 1in = 6pc =96 px*/
+
+
+/* ******** Relative units  ******* 
+************************************/
+
+/* ******** Relative fonts ********/
+/* :root {
+    font-size: 2em;
+}
+.div1{
+font-size: 1em;
+background-color: yellow;
+width: 1em;
+}
+
+.div2{
+    font-size: 1em;
+}
+
+.div3{
+    font-size: 2rem; 
+    /* rootempasisi */
+
+/* p{
+    background-color: chartreuse;
+    width: 10ch;
+    font-family: 'Courier New', Courier, monospace;
+    height: 10ch ;
+} */
+
+/* .dinu{
+font-size: 2ex;
+background-color: chartreuse;
+height: 2ex; */
+
+
+/* .div{
+background-color: gold;
+font-family: fantasy;
+height: 1ex;
+width: 1ex;
+} */
+/***************relative viewport *********************** */
+/* *{
+    margin: 0;
+} */
+
+/* .div{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+} */
+
+
+
+/* .div{
+    width: 40vmin;
+    height: 90vmin;
+    background-color: brown;
+}
+ */
+
+/* .div{
+    width: 40vmax;
+    height: 90vmax;
+    background-color: brown;
+}
+  */
+
+/***************relative to parent percentage*********************** */
+/* html{
+    background-color:blue;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.div{
+    background-color: chartreuse;
+    width: 50%;
+    height: 50%.div */
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+}
+
+
+
+
+.div{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+
+
+.div1{
+    width: 50%;
+    height: 50%;
+    background-color:darkorchid;
+} */
+
+
+/****************************
+       Distance Units
+ ******************************/ 
+
+
+/***************angle units *********************** */
+/* *{
+    margin: 0;
+}
+
+body{
+ height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid red;
+    transition: 1s;
+    transform: rotate(60deg);
+    transform: rotate(60grad);
+    transform: rotate(60rad);
+    transform: rotate(1turn);
+}
+ */
+
+ /* *{
+    margin: 0;
+}
+
+body{
+ height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid red;
+    transition: 3000ms;
+}
+.div:hover{
+    background-color: darkorchid;
+} */
+
+
+
+
+/****************************
+    Functional Notation
+ ******************************/ 
+
+
+
+
+
+
+
+
+ 

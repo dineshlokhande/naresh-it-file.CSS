@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo element selector</title>
+
+    <link rel="stylesheet" href="pseudoelement.css" />
+  </head>
+  <body>
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+      incidunt laborum, voluptatibus error fugiat provident consectetur
+      asperiores illum fugit dicta?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, esse
+      voluptatem aliquid eius dicta possimus maxime perferendis. Itaque numquam,
+      quaerat voluptate dolorum nostrum maiores hic cupiditate, explicabo quasi
+      provident beatae.
+    </p>
+
+    <h1>hello world this is my web page</h1>
+    <br /><br />
+
+    <input type="text" placeholder="username" /><br /><br />
+    <input type="text" placeholder="lastname" />
+    <br /><br />
+    <button type="button" name="submit" placeholder="submit">submit</button>
+
+    <h2>love</h2>
+    <h2>
+      Lorem ipsum dolor,<strong style="color: ;">dinesh</strong> sit amet consectetur adipisicing elit. Natus a amet
+      voluptatibus nam vero voluptas quia sint facere, impedit perferendis
+      sapiente rerum mollitia quam, aperiam asperiores excepturi ipsam nemo ea?
+    </h2>
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+      <li>list 4</li>
+      <li>list 5</li>
+      <li>list 6</li>
+      <li>list 7</li>
+      <li>list 8</li>
+      <li>list 9</li>
+      <li>list 10</li>
+    </ul>
+
+    <ol>
+      <li>order list 1</li>
+      <li>order list 2</li>
+      <li>order list 3</li>
+      <li>order list 4</li>
+      <li>order list 5</li>
+      <li>order list 6</li>
+      <li>order list 7</li>
+      <li>order list 8</li>
+      <li>order list 9</li>
+      <li>order list 10</li>
+    </ol>
+
+
+
+    <h2><img src="data:image/png;base64,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" alt="demo"></h2>
+  
+<h3><img src="https://newsonair.com/wp-content/uploads/2021/07/modi-3_0.jpg" alt="modi" width="330px"></h3> -->
+
+<!-- <p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p>
+<p>this is pra </p> -->
+
+
+<!-- <P title="para ">this is para 1</P>
+<P title="para ">this is para 2</P>
+<P title="para " >this is para 3</P>
+<P title="para " >this is para 4</P>
+<P title="para " >this is para 5</P>
+<P title="para ">this is para 6</P>
+<P title="para ">this is para 7</P>
+<P title="para ">this is para 8</P>
+<P title="para " >this is para 9</P>
+<P title="para ">this is para 10</P> -->
+
+
+<!-- <a href="https://www.google.com">google</a> -->
+
+<!-- <p>this is para 1</p>
+<p>this is para 2</p>
+<p>this is para 3</p>
+<p>this is para 4</p>
+<p>this is para 5</p> -->
+
+<!-- <p>this is para 1</p>
+<p>this is para 2</p>
+<p>this is para 3</p>
+<p>this is para 4</p>
+<p>this is para 5</p> -->
+
+
+<div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

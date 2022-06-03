@@ -1,0 +1,139 @@
+
+/* div {
+    width: 300px;
+    height: 300px;
+    border: 5px solid red; */
+/* background-color: transparent; */
+/* background-color: yellow; */
+
+/* background-image: url(https://picsum.photos/120/120);
+
+background-repeat: no-repeat; */
+/* background-repeat: repeat-x; */
+/* background-repeat: repeat-y;  */
+/* background-repeat: round; */
+/* background-repeat: space; */
+
+/* background-position: -20px 100px; */
+
+/* background-position: 100% 100%;
+background-position: 0% 100%;
+background-position: 50% 0%;
+background-position: top;
+background-position: right;
+background-position: left;
+background-position: bottom;
+
+background-position: top right;
+background-position: top left;
+background-position: bottom left;
+background-position: bottom right; */
+
+/* background-position:top bottom; */
+/* 
+background-position: 100% bottom;
+background-position: 100% right;
+
+ */
+
+/* background-position: 50% bottom; */
+
+/* 
+section{
+    width: 30vw;
+    height: 30vh;
+}
+section:nth-child(1){
+ background-image: url(https://picsum.photos/1250/1200);
+ background-color: blue; */
+ /* background-attachment: scroll; */
+ /* background-attachment: fixed; */
+ 
+/* } */
+
+/* 
+section:nth-child(2){
+      background-image: url(https://picsum.photos/1100/1100); 
+     background-color: green; */
+     /* background-attachment: scroll; */
+     /* background-attachment: fixed; */
+
+/* } */
+
+/* 
+section:nth-child(3){
+      background-image: url(https://picsum.photos/1400/1400); 
+     background-color: red; */
+     /* background-attachment: scroll; */
+     /* background-attachment: fixed; */
+/* } */
+/* 
+section p {
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    overflow: auto;
+    background-image: url(https://picsum.photos/150/150);  */
+    /* background-attachment: local; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+     */
+
+/* } */
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    padding: 20px;
+     background-image: url(https://picsum.photos/200/600); 
+
+/* background-color: rgb(108, 165, 42); */
+      /* background-repeat: no-repeat; */
+    /* background-origin: border-box;
+    background-origin: content-box; 
+    background-origin: padding-box;  */
+
+/* background-clip: border-box; */
+/* background-clip: padding-box; */
+/* background-clip: content-box; */
+
+/* background-size: contain; */
+/* background-size: cover; */
+/* background-size: 00px 300px; */
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

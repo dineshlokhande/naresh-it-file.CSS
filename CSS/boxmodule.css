@@ -1,0 +1,211 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center; */
+    
+
+        
+
+/* .dinu{
+    height: 100px;
+    width: 1000px;
+    background-color: brown;
+    min-width:500px;
+    max-width: 800px;
+    padding: 10px;
+    margin-top: 100px;
+} */
+/* div {
+    height: 1000px;
+    min-height: 100px;
+    max-height: 500px;
+    width: 1000px;
+    background-color: aquamarine;
+} */
+div {
+
+    background-color:yellowgreen;
+    width: 100px;
+    height: 100px;
+/* border: 1px solid red; */
+/* border-width: 15px;
+border-style:none;
+border-style: dashed;
+border-style: dotted;
+border-style: double;
+border-style: groove;
+border-style: ridge;
+border-style: outset;
+border-style: inset;
+border-style: solid;
+
+border-color: red;
+
+ */
+
+/* border-top-width: 10px;
+border-top-style:solid ;
+border-top-color: chartreuse;
+
+border-right-width: 15px;
+border-right-style:dotted ;
+border-right-color: rebeccapurple;
+
+border-bottom-width: 10px;
+border-bottom-style:dashed ;
+border-bottom-color: rgb(153, 51, 136);
+
+
+border-left-width: 10px;
+border-left-style:double;
+border-left-color: salmon;
+ */
+/* border-width: 10px 12px 30px 25px;
+border-color: coral green yellow peru;
+border-style: dashed solid dotted outset; */
+
+/* 
+border: 10px solid red;
+/*  */
+border-radius: 50%;
+
+/* border: medium solid red; */
+
+ /* border: thick solid red;  */
+
+
+/* 
+border-top: 10px solid greenyellow;
+border-bottom: 10px solid pink;
+border-right: 10px solid red;
+border-left:10px solid salmon; */ 
+
+/* padding-top: 100px ;
+padding-bottom: 200px;
+padding-left: 100px;
+padding-right: 100px; */
+
+/* padding: 100px 100px 200px 100px; */
+
+
+
+
+
+
+
+/* 
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 100px;
+margin-right: 100px;
+ */
+/* display: inline-block ;
+margin: 10px 10px 10px 10px;
+ */
+
+/* margin: 0;
+height: auto; */
+
+/* 
+margin-left: -20px;
+margin-top: -20px;
+margin-right: -20px;
+margin-bottom: -20px; */
+
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* margin-bottom: auto; */
+/* margin-top: auto; */
+
+
+/* margin:calc(50vh - 50px) auto 0 auto ; */
+
+/* margin: 30% auto 0 auto; */
+
+
+/* box-sizing: border-box;
+box-sizing: content-box; */
+ 
+
+/* 
+border-top-left-radius: 10px;
+border-top-right-radius:10px ;
+border-top-left-radius:10px
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+ */
+/* 
+border-radius: 10px 70px 70px 70px; */
+
+/* border-radius: 100px 00px  */
+
+/* border-radius: 50% */
+
+/* border-top-left-radius: 50%; */
+
+/* border-radius: 100px 200px / 200px 100px ; */
+/* border-radius: 100px 200px  200px 100px /200px 100px 200px 100px; */
+
+/* white-space: nowrap; */
+/* overflow: visible; */
+/* overflow-x: hidden; */
+/* overflow-x: auto; */
+/* overflow-x: scroll;  */
+/* 
+overflow-y: auto;
+overflow: auto; */
+
+/* box-shadow: x-offset y-offset blur-redius spread color inset; */
+/* margin-top: 40px;
+margin-left:100px;
+/* box-shadow: inset -10px -10px 10px 10px black ; */
+
+/* 
+box-shadow: 0px 0px 10px 0px,
+14px 14px 0px 0px red inset,
+-10px -10px 0px 0px white 
+; */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

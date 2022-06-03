@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+const validateRegisterInfo= (userData)=>{
+    let errorMessage = document.getElementById("errorMessage")
+    let nameMessage = document.getElementById("nameMessage")
+    let emailMessage = document.getElementById("emailMessage")
+    let numberMessage = document.getElementById("numberMessage")
+    errorMessage.style.color="red";
+    errorMessage.style.fontWeight="bold";
+
+    if( userData.mobileNumber.length != 10 ){   
+        nameMessage.innerText =""
+    emailMessage.innerText = ""
+    numberMessage.innerText =""
+        errorMessage.innerText = "Mobile number must be of 10 digit";
+        return false;
+    }
+
+    if(! userData.email.endsWith(".com")  ){  
+        nameMessage.innerText =""
+        emailMessage.innerText = ""
+        numberMessage.innerText =""   
+
+        errorMessage.innerText = `${userData.email} is not a valid email id`;
+        return false;
+    }
+
+    if( userData.password.length != 6 ){ 
+        nameMessage.innerText =""
+        emailMessage.innerText = ""
+        numberMessage.innerText ="" 
+
+        errorMessage.innerText = "Password should be of length 6";
+        return false;
+    }
+    
+    errorMessage.innerText = "";
+    nameMessage.innerText = `Name = ${ userData.name}`;
+    emailMessage.innerText = `Email = ${ userData.email}`;
+    numberMessage.innerText = `Mobile number = ${ userData.mobileNumber}`;
+    
+    return true;
+}
+
+const register = () => {
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    let mobileNumber = document.getElementById("mobileNumber").value
+    let password = document.getElementById("password").value
+    const data ={name,email,mobileNumber,password}
+    console.log(data);
+    if(validateRegisterInfo(data)){
+
+        console.log("user registered")
+    }
+}
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <form > 
+        <h1>Register</h1>
+        <input type="text" id="name" placeholder="Name"/>
+        <input type="email" id="email" placeholder="Email"/>
+        <input type="number" id="mobileNumber" placeholder="Mobile Number"/>
+        <input type="password" id="password" placeholder="password"/>
+        <p id="errorMessage"></p>
+        <p id="nameMessage"></p>
+        <p id="emailMessage"></p>
+        <p id="numberMessage"></p>
+        <button type="button" onclick="register()" >Register</button>
+    </form>
+</body>
+</html>
+
+window.location.href="sample.html";
+
+
+</body>
+</html>

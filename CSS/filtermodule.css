@@ -1,0 +1,27 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+div {
+  /* background-color: red; */
+  padding: 50;
+
+  /* filter: blur(10px); */
+  /* filter: brightness(5); */
+  /* filter: brightness(2); */
+  /* filter: grayscale(1); */
+  /* filter: saturate(5); */
+  /* filter: hue-rotate(180deg); */
+  /* filter: invert(1); */
+  /* filter: opacity(0.2); */
+  /* filter: sepia(3); */
+
+/* 
+filter: brightness(3) sepia(1) hue-rotate(160deg); */
+}
+img {
+    filter: drop-shadow (10px 10x 10px red);
+
+}

@@ -1,0 +1,55 @@
+/******************************
+*         COLOR MODULE        *
+*******************************/
+
+h1 {
+    /* There are 140 defined color keyword/ names */
+    /* color: purple; */
+
+    /* color: RRGGBB; */
+    /* 
+        0 - 9 = 10 
+        a - 10
+        b - 11
+        c - 12
+        d - 13
+        e - 14
+        f - 15
+        ---------
+        16 * 16 = 256 (R * R) = 1 Byte
+        16 * 16 = 256 (G * G) = 1 Byte
+        16 * 16 = 256 (B * B) = 1 Byte
+
+        256 * 256 * 256 = 16M+
+
+
+        8bit = 1 Byte
+        2 ^ 8 = 256
+
+    */
+    /* color: #ffffff;
+    color: #0000ff;
+    color: #0077ff;
+    color: #00ff00;
+    color: #ffff00;
+    color: #000000; */
+
+    /* color: #RGB; */
+    /* color: #ade;
+    color: #f00; */
+
+    /* color: rgb(255, 0, 0); */
+    /* color: rgb(255, 128, 128); */
+
+    /* color: rgb(255 128 70); */
+
+    /* color: rgb(50%, 100%,100%); */
+
+    /* color: hsl(angle, saturation%, lightness%); */
+
+    color: hsl(0, 50%, 50%);
+
+    /* saturation 0% (Gray) - 100% (Full olor)
+
+    lightness 0% (black) - 100% (white) */
+}

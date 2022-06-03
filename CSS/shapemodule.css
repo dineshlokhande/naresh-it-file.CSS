@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    /* border: 20px solid red; */
+    padding: 20px;
+    margin: 20px;
+    /* background-clip: content-box; */
+    float: left;
+    /* border-radius: 50%; */
+
+/* shape-outside: margin-box; */
+/* shape-outside: border-box; */
+ /* shape-outside: padding-box;  */
+ /* shape-outside: content-box;  */
+/* 
+shape-outside: inset(30px round 60px);
+clip-path: inset(30px round 60px); */
+
+/* shape-outside: ellipse(30px 50px);
+clip-path: ellipse(30px 50px);
+shape-margin: 20px;
+
+shape-margin:polygon(0 0 ,500% 100%, 0 100% );
+clip-path: polygon(0 0,500% 100%,0 100%); */
+
+/* background-image: linear-gradient(-30deg,transparent 50%, red 100%); */
+/* shape-margin: 20px; */
+/* shape-outside: linear-gradient(-30deg,transparent 50%, red 100%); */
+
+/* shape-image-threshold: 0; */
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    shape-outside: url(eagle.png);
+    shape-margin: 20px;
+    shape-outside:inset(30px 20px);
+    filter:drop-shadow(10px 10px 10px red);
+}
